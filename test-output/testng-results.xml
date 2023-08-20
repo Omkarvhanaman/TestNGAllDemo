@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-15T03:56:00Z" name="Default suite" finished-at="2023-07-15T03:57:49Z" duration-ms="108857">
+    <groups>
+      <group name="numbers">
+        <method signature="TestCaseDemo.tc_01(int, int)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" name="tc_01" class="TestCaseDemo.TestCaseDemo"/>
+      </group> <!-- numbers -->
+      <group name="failed">
+        <method signature="TestCaseDemo.tc_02()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" name="tc_02" class="TestCaseDemo.TestCaseDemo"/>
+      </group> <!-- failed -->
+      <group name="loginPage">
+        <method signature="TestCaseDemo.tc_03(java.lang.String, java.lang.String)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" name="tc_03" class="TestCaseDemo.TestCaseDemo"/>
+      </group> <!-- loginPage -->
+    </groups>
+    <test started-at="2023-07-15T03:56:00Z" name="Default test" finished-at="2023-07-15T03:57:49Z" duration-ms="108857">
+      <class name="TestCaseDemo.TestCaseDemo">
+        <test-method is-config="true" signature="m5()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:00Z" name="m5" finished-at="2023-07-15T03:56:00Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m5 -->
+        <test-method is-config="true" signature="m3()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:00Z" name="m3" finished-at="2023-07-15T03:56:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method is-config="true" signature="m9()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:00Z" name="m9" finished-at="2023-07-15T03:56:00Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m9 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:00Z" name="m7" finished-at="2023-07-15T03:56:04Z" duration-ms="3325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_01(int, int)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:04Z" name="tc_01" data-provider="Number data" finished-at="2023-07-15T03:56:04Z" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:04Z" name="m8" finished-at="2023-07-15T03:56:04Z" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:04Z" name="m7" finished-at="2023-07-15T03:56:06Z" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_01(int, int)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:06Z" name="tc_01" data-provider="Number data" finished-at="2023-07-15T03:56:06Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:06Z" name="m8" finished-at="2023-07-15T03:56:07Z" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:07Z" name="m7" finished-at="2023-07-15T03:56:09Z" duration-ms="2427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_01(int, int)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:09Z" name="tc_01" data-provider="Number data" finished-at="2023-07-15T03:56:09Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:09Z" name="m8" finished-at="2023-07-15T03:56:09Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:09Z" name="m7" finished-at="2023-07-15T03:56:12Z" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_02()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:12Z" name="tc_02" finished-at="2023-07-15T03:56:12Z" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:86)
+at org.junit.Assert.assertTrue(Assert.java:41)
+at org.junit.Assert.assertTrue(Assert.java:52)
+at TestCaseDemo.TestCaseDemo.tc_02(TestCaseDemo.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:15Z" name="m8" finished-at="2023-07-15T03:56:15Z" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:16Z" name="m7" finished-at="2023-07-15T03:56:18Z" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_03(java.lang.String, java.lang.String)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:18Z" name="tc_03" data-provider="LoginData" finished-at="2023-07-15T03:56:39Z" duration-ms="20483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vickyvhanamani@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[omkar@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:39Z" name="m8" finished-at="2023-07-15T03:56:39Z" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:39Z" name="m7" finished-at="2023-07-15T03:56:42Z" duration-ms="2477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_03(java.lang.String, java.lang.String)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:56:42Z" name="tc_03" data-provider="LoginData" finished-at="2023-07-15T03:57:02Z" duration-ms="20478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[omkar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vicky@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:02Z" name="m8" finished-at="2023-07-15T03:57:02Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:02Z" name="m7" finished-at="2023-07-15T03:57:05Z" duration-ms="2709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_03(java.lang.String, java.lang.String)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:05Z" name="tc_03" data-provider="LoginData" finished-at="2023-07-15T03:57:26Z" duration-ms="20549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vicky@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:26Z" name="m8" finished-at="2023-07-15T03:57:26Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m7()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:26Z" name="m7" finished-at="2023-07-15T03:57:28Z" duration-ms="2746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="tc_03(java.lang.String, java.lang.String)[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:28Z" name="tc_03" data-provider="LoginData" finished-at="2023-07-15T03:57:49Z" duration-ms="20537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[omkarvhnamani@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vashi@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03 -->
+        <test-method is-config="true" signature="m8()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:49Z" name="m8" finished-at="2023-07-15T03:57:49Z" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+        <test-method is-config="true" signature="m4()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:49Z" name="m4" finished-at="2023-07-15T03:57:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method is-config="true" signature="m6()[pri:0, instance:TestCaseDemo.TestCaseDemo@4dc27487]" started-at="2023-07-15T03:57:49Z" name="m6" finished-at="2023-07-15T03:57:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m6 -->
+      </class> <!-- TestCaseDemo.TestCaseDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
